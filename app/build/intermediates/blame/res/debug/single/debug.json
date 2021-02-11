@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_heart.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_heart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_heart_stroke.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_heart_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_search.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_home_stroke.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_home_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_photo_stroke.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_photo_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_messages.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_messages.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_retweet_stroke.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_retweet_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_notifications.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_timeline.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\layout\\activity_timeline.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vector_compose_dm_fab.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\vector_compose_dm_fab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_search_stroke.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_search_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4_ic_vector_close.png.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\mipmap-xxxhdpi-v4\\ic_vector_close.png"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_home.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vector_compose_shortcut.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\vector_compose_shortcut.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_messages_stroke.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_messages_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vector_compose_dm_shortcut.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\vector_compose_dm_shortcut.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_location_stroke.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_location_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\menu_login.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_gif_pill_stroke.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_gif_pill_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_notifications_stroke.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_notifications_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_retweet.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_retweet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4_ic_launcher_twitter.png.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\mipmap-xxxhdpi-v4\\ic_launcher_twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4_ic_launcher_twitter_round.png.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\mipmap-xxxhdpi-v4\\ic_launcher_twitter_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_follow.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_follow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_location.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_person.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vector_compose_fab.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\vector_compose_fab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_close.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_tweet.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\layout\\item_tweet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\layout_appbar.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\layout\\appbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\menu_top_bar.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\menu\\top_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_twitter.png.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_launcher_twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4_ic_vector_compose.png.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\mipmap-xxxhdpi-v4\\ic_vector_compose.png"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_gif_pill.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_gif_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_person_stroke.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_person_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_vector_photo.xml.flat",
+        "source": "C:\\Users\\Neo91\\AndroidStudioProjects\\simpleTweet\\app\\src\\main\\res\\drawable\\ic_vector_photo.xml"
+    }
+]
