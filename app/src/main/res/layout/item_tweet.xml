@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="120dp"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/ivProfileImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvScreenName"
+        android:layout_width="103dp"
+        android:layout_height="13dp"
+        android:layout_above="@+id/tvBody"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginBottom="23dp"
+        android:layout_toEndOf="@+id/tvUserName"
+        tools:text="atwarriors" />
+
+    <TextView
+        android:id="@+id/tvBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ibRetweet"
+        android:layout_below="@+id/ivProfileImage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="-21dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="-24dp"
+        android:autoLink="all"
+        android:linksClickable="true"
+        android:textSize="12sp"
+        tools:text="ITS GAME DAY! The Dubs host @dallasmavs in a western conference showdown. Preview and ampp tix at link below" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        android:textStyle="bold"
+        tools:text="warriors" />
+
+    <TextView
+        android:id="@+id/tvCreatedAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="5dp"
+        tools:text="9h" />
+
+    <ImageButton
+        android:id="@+id/ibRetweet"
+        android:layout_width="24dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/ic_vector_retweet" />
+
+    <ImageButton
+        android:id="@+id/ibLike"
+        android:layout_width="25dp"
+        android:layout_height="19dp"
+        android:layout_alignBottom="@+id/tvBody"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/ic_vector_heart" />
+
+    <ImageButton
+<<<<<<< HEAD
+        android:id="@+id/ibReply"
+=======
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
+        android:layout_width="23dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/tvBody"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/vector_compose_dm_fab" />
+
+
+</RelativeLayout>

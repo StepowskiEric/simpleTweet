@@ -1,0 +1,21 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+<<<<<<< HEAD
+        classpath 'com.android.tools.build:gradle:4.1.2'
+=======
+        classpath 'com.android.tools.build:gradle:3.6.1'
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
