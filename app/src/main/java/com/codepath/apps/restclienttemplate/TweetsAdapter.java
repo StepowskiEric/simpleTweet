@@ -1,11 +1,17 @@
 package com.codepath.apps.restclienttemplate;
 
 import android.content.Context;
+<<<<<<< HEAD
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+=======
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -65,18 +71,30 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
         TextView tvName;
         TextView createdAt;
 
+<<<<<<< HEAD
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             ivProfileImage = itemView.findViewById(R.id.ivProfileImage);
+=======
+        public ViewHolder(@NonNull View itemView) {
+            super(itemView);
+            ivProfileImage = itemView.findViewById(R.id.ivProfileImage);
+
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
             tvScreenName = itemView.findViewById(R.id.tvScreenName);
             tvBody = itemView.findViewById(R.id.tvBody);
             tvName = itemView.findViewById(R.id.tvUserName);
             createdAt = itemView.findViewById(R.id.tvCreatedAt);
+<<<<<<< HEAD
 
         }
 
 
+=======
+        }
+
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
         public void bind(Tweet tweet) {
             tvBody.setText(tweet.body);
             tvScreenName.setText("@" + tweet.user.screenName);
@@ -87,9 +105,12 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
             Glide.with(mContext).load(tweet.user.imageUrl).into(ivProfileImage);
 
         }
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
     }
 
 }

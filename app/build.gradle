@@ -29,6 +29,7 @@ android {
     }
 
     buildTypes {
+<<<<<<< HEAD
         debug {
             buildConfigField("String", "CONSUMER_KEY", apikeyProperties['CONSUMER_KEY'])
             buildConfigField("String", "CONSUMER_SECRET", apikeyProperties['CONSUMER_SECRET'])
@@ -54,6 +55,16 @@ android {
 
 dependencies {
 
+=======
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
     implementation fileTree(dir: 'libs', include: '*.jar')
     implementation 'com.codepath.libraries:android-oauth-handler:2.2.0'
     implementation 'commons-codec:commons-codec:1.10'
@@ -68,6 +79,9 @@ dependencies {
     annotationProcessor "androidx.room:room-compiler:$room_version"
     implementation 'com.facebook.stetho:stetho:1.5.1'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
+<<<<<<< HEAD
     implementation 'org.parceler:parceler-api:1.1.12'
     annotationProcessor 'org.parceler:parceler:1.1.12'
+=======
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
 }

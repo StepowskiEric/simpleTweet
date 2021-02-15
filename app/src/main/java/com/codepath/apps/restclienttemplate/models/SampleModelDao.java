@@ -10,7 +10,12 @@ import java.util.List;
 @Dao
 public interface SampleModelDao {
 
+<<<<<<< HEAD
 
+=======
+    // @Query annotation requires knowing SQL syntax
+    // See http://www.sqltutorial.org/
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
     
     @Query("SELECT * FROM SampleModel WHERE id = :id")
     SampleModel byId(long id);

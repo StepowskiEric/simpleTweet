@@ -1,6 +1,9 @@
 package com.codepath.apps.restclienttemplate;
 
+<<<<<<< HEAD
 import androidx.annotation.Nullable;
+=======
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -8,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.appcompat.widget.Toolbar;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -23,12 +27,23 @@ import com.codepath.apps.restclienttemplate.models.Tweet;
 import com.codepath.apps.restclienttemplate.models.TweetDao;
 import com.codepath.apps.restclienttemplate.models.TweetWithUser;
 import com.codepath.apps.restclienttemplate.models.User;
+=======
+import android.os.Bundle;
+import android.util.Log;
+import android.view.Menu;
+import android.widget.RelativeLayout;
+
+import com.codepath.apps.restclienttemplate.models.Tweet;
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
 
 import org.json.JSONArray;
 import org.json.JSONException;
+<<<<<<< HEAD
 import org.parceler.Parcel;
 import org.parceler.Parcels;
+=======
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -38,16 +53,25 @@ import okhttp3.Headers;
 
 public class TimelineActivity extends AppCompatActivity {
 
+<<<<<<< HEAD
     public final int REQUEST_CODE = 1;
     public static final String TAG = "TIME_LINE_ACTIVITY";
     public TwitterClient client;
     List<Tweet> tweets;
     TweetDao tweetDao;
+=======
+    public static final String TAG = "TIME_LINE_ACTIVITY";
+    public TwitterClient client;
+    List<Tweet> tweets;
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
     Toolbar toolbar;
     RecyclerView rvTweets;
     TweetsAdapter adapter;
     SwipeRefreshLayout swipeContainer;
+<<<<<<< HEAD
     ImageButton ivBtnReply;
+=======
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
     EndlessRecyclerViewScrollListener scrollListener;
     Menu menu;
 
@@ -58,8 +82,11 @@ public class TimelineActivity extends AppCompatActivity {
         rvTweets = findViewById(R.id.rvTweets);
         tweets = new ArrayList<>();
         client =  TwitterApp.getRestClient(this);
+<<<<<<< HEAD
         ivBtnReply = findViewById(R.id.ibReply);
         tweetDao = ((TwitterApp) getApplicationContext()).getMyDatabase().tweetDao();
+=======
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
         toolbar = findViewById(R.id.toolBar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setLogo(R.mipmap.ic_launcher_twitter);
@@ -96,9 +123,12 @@ public class TimelineActivity extends AppCompatActivity {
 
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
         scrollListener = new EndlessRecyclerViewScrollListener(linearLayoutManager) {
             @Override
             public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
@@ -107,6 +137,7 @@ public class TimelineActivity extends AppCompatActivity {
             }
         };
         rvTweets.addOnScrollListener(scrollListener);
+<<<<<<< HEAD
         AsyncTask.execute(new Runnable() {
             @Override
             public void run() {
@@ -117,6 +148,9 @@ public class TimelineActivity extends AppCompatActivity {
                 adapter.addAll(tweetsFromDB);
             }
         });
+=======
+
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
         populateHomeTimeline();
     }
 
@@ -127,6 +161,7 @@ public class TimelineActivity extends AppCompatActivity {
         return true;
     }
 
+<<<<<<< HEAD
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.composeicon) {
@@ -148,6 +183,8 @@ public class TimelineActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
     }
 
+=======
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
     private void loadMoreData() {
         client.getNextPageOfTweets(new JsonHttpResponseHandler() {
             @Override
@@ -175,6 +212,7 @@ public class TimelineActivity extends AppCompatActivity {
             public void onSuccess(int statusCode, Headers headers, JSON json) {
                     JSONArray jsonArray = json.jsonArray;
                 try {
+<<<<<<< HEAD
                     List<Tweet> tweetsFromNetWork = Tweet.fromJsonArray(jsonArray);
                     adapter.clear();
                     adapter.addAll(tweetsFromNetWork);
@@ -189,14 +227,23 @@ public class TimelineActivity extends AppCompatActivity {
                             tweetDao.insertModel(tweetsFromNetWork.toArray(new Tweet[0]));
                         }
                     });
+=======
+                    adapter.clear();
+                    adapter.addAll(Tweet.fromJsonArray(jsonArray));
+                    //Tells the container to stop refreshing
+                    swipeContainer.setRefreshing(false);
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
                 } catch (JSONException e) {
                     Log.e(TAG, "Json exception", e);
                     e.printStackTrace();
                 }
             }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
             @Override
             public void onFailure(int statusCode, Headers headers, String response, Throwable throwable) {
                 Log.i(TAG, "On Failure", throwable);

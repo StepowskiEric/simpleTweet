@@ -91,7 +91,10 @@
         android:src="@drawable/ic_vector_heart" />
 
     <ImageButton
+<<<<<<< HEAD
         android:id="@+id/ibReply"
+=======
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
         android:layout_width="23dp"
         android:layout_height="20dp"
         android:layout_alignBottom="@+id/tvBody"

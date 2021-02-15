@@ -13,9 +13,13 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".ReplyActivity"></activity>
         <activity android:name=".ComposeActivity" />
         <activity android:name=".TimelineActivity" />
+=======
+        <activity android:name=".TimelineActivity"></activity>
+>>>>>>> 96778e4f552e9ac9fd32ad2dcc9db51cf26b5e96
         <activity
             android:name=".LoginActivity"
             android:label="@string/app_name"
