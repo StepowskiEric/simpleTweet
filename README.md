@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://raw.githubusercontent.com/StepowskiEric/simpleTweet/master/simpletweetwalkthru.gif' width='200px' />
+<img src='https://raw.githubusercontent.com/StepowskiEric/simpleTweet/main/simpletweetwalkthru2.gif' width='200px' />
 
 
 
